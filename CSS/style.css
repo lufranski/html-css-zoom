@@ -49,21 +49,33 @@ body {
             overflow: hidden;
         }
 
-
+a {
+    text-decoration: none;
+    color: #fff;
+}
 /* Regole Top */
     .users {
         margin-right: 1%;
+        background-color: gray;
+        border-radius: 10px;
         /* DEBUG */
-        width: 10%;
+        /* width: 10%; */
         height: 50%;
-        background-color: brown;
+        padding:  3px;
+        font-size: 18px;
+        /* background-color: brown; */
     }
 
     .fullscreen {
-        /* DEBUG */
-        width: 5%;
+        background-color: gray;
+        border-radius: 10px;
         height: 50%;
-        background-color: forestgreen;
+        padding: 8px;
+        font-size: 14px;
+        /* DEBUG */
+        /* width: 5%; */
+        /* height: 50%; */
+        /* background-color: forestgreen; */
     }
 
 
