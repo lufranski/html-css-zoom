@@ -11,29 +11,43 @@ body {
 
 
 /* Regole principali */
-.container {
+
+.wrapper {
     width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: flex-end;
-    /* DEBUG */
-    background-color: blue;
+    height: 100vh;
 }
 
-.top {
-    padding-right: 1%;
-    padding-top: 1%;
-}
+        .container {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+            /* DEBUG */
+            background-color: black;
+        }
 
-.center {
-    /* DEBUG */
-    min-height: 500px;
-    background-color: black;
-}
+        .top {
+            padding-right: 1%;
+            padding-top: 1%;
+            height: 10vh;
+            overflow: hidden;
+        }
 
-.bottom {
-    background-color: gray;
-}
+        .center {
+            /* DEBUG */
+            min-height: 500px;
+            background-color: black;
+            height: 80vh;
+            overflow-y: auto;
+        }
+
+        .bottom {
+            background-color: grey;
+            justify-content: space-between;
+            align-items: center;
+            height: 10vh;
+            overflow: hidden;
+        }
 
 
 /* Regole Top */
@@ -85,10 +99,7 @@ body {
         }
 
     /* Regole Bottom */
-.bottom {
-    justify-content: space-between;
-    align-items: center;
-}
+
 
     .menu {
         display: flex;
